@@ -7,6 +7,4 @@ before_install:
 
 
 script: 
-  - docker run CI=true cong/docker-react npm run test -- --coverage
-
-language: generic 
+  - docker run cong/docker-react npm run test -- --coverage
